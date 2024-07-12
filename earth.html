@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space and Earth</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      .banner {
+        height: 300px;
+        position: relative;
+      }
+      .banner-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .content {
+        margin-top: 250px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Space and Earth</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+      <canvas id="basicCanvas"></canvas>
+      <div class="banner-text">
+        <h1>Welcome to the Cosmos</h1>
+        <p>Explore the wonders of space and earth.</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h2>About Space and Earth</h2>
+      <p>
+        Space, the final frontier, is a boundless expanse that holds countless
+        mysteries and wonders. From the majestic galaxies to the enigmatic black
+        holes, the universe is a source of endless fascination and inspiration.
+        Earth, our home, is a unique planet teeming with life and natural
+        beauty. Understanding the relationship between space and earth helps us
+        appreciate our place in the cosmos.
+      </p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
